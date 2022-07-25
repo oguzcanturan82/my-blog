@@ -1,0 +1,15 @@
+.nav{
+    display: flex;
+    gap: 25px;
+}
+.nav a{
+    font-size: 1.1rem;
+}
+.nav a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.nav-active{
+    text-decoration: underline;
+    color: red;
+}
