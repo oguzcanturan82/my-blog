@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="/admin-nav.css">
-<link rel="stylesheet" href="/cards.css">
+<link rel="stylesheet" href="/card.css">
 
 <style>
     body {
@@ -14,7 +14,7 @@
         margin: 10vh auto 7.5vh;
     }
     .cards{
-        row-gap: 2.2%;
+        row-gap: .9%;
     }
     .card-actions{
         display: flex;
