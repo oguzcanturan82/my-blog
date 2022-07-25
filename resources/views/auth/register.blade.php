@@ -1,3 +1,9 @@
+<style>
+    .chosen-container-single{
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+</style>
 <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
@@ -12,10 +18,13 @@
         <form method="POST" action="{{ route('register') }}">
             @csrf
 
-            <select data-placeholder="Uyelik tipi seciniz" class="chosen-select" name="type">
-                <option value="reader">reader</option>
-                <option value="admin">admin</option>
-            </select>
+            <div>
+                <x-label for="acc-type" :value="__('Üyelık tipinizi seçin')" />
+                <select data-placeholder="Uyelik tipi seciniz" class="chosen-select" id="acc-type" name="type">
+                    <option value="reader">reader</option>
+                    <option value="admin">admin</option>
+                </select>
+            </div>
 
             <!-- Name -->
             <div>
