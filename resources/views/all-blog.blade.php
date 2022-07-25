@@ -14,7 +14,10 @@
         margin: 10vh auto 7.5vh;
     }
     .cards{
-        row-gap: .9%;
+        row-gap: .5%;
+    }
+    .card{
+        width: 100% !important;
     }
     .card-actions{
         display: flex;
